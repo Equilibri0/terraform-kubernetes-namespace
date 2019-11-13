@@ -1,7 +1,7 @@
 Create a namespace in Kubernetes
 ==============================================================================
 
-This Terraform module deploys Namespaces in Kubernetes: 
+This Terraform ( 0.12 > ) module deploys Namespaces in Kubernetes: 
 
 Usage
 -----
