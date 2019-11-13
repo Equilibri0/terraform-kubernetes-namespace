@@ -8,6 +8,7 @@ Usage
 
 ```hcl 
 module "namespace" { 
+    source          = "../modules/terraform-kubernetes-namespace"
     namespace_names                     = ["dev", "test", "stage"]
 }
 
@@ -16,4 +17,4 @@ module "namespace" {
 
 Authors
 =======
-Originally created by [Pana Tsafaridis](http://github.com/Equilibri0)
+Originally created by [Pana T.](http://github.com/Equilibri0)
